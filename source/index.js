@@ -32,7 +32,9 @@ const app = express();
 const port = 3000;
 
 // Configure server routes
-app.get('/', (req, res) => res.send(metacall('get_links', req.query.url)));
+app.get('/', (req, res) => res.send(req.query.url ?
+    metacall('get_links', req.query.url) :
+    'Invalid URL parameter'));
 
 // Create Express server (TODO: stdout does not work properly on node loader)
 app.listen(port, () => console.log(`Listening on port ${port}!`));
