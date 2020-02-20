@@ -40,8 +40,8 @@ It should output something like:
 An alternative version with Docker and automated testing is provided.
 
 ```sh
-docker build -t metacall/beautiful-express-example .
-docker run --rm -p 3000:3000 -it metacall/beautiful-express-example
+docker build -t metacall/beautifulsoup-express-example .
+docker run --rm -p 3000:3000 -it metacall/beautifulsoup-express-example
 ```
 
 ## MetaCall FaaS
