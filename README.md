@@ -1,7 +1,7 @@
 # Using BeautifulSoup from a Express server (NodeJS) with MetaCall
 
 <div align="center">
-  <a href="https://metacall.io" target="_blank"><img src="https://github.com/metacall/beautifulsoup-express-example/blob/master/resources/scraper.png?raw=true" alt="Scraping polyglot with MetaCall" style="max-width:100%; margin: 0 auto;" width="864" height="auto"></a>
+  <a href="https://medium.com/@metacall/this-scraping-serverless-polyglot-is-metacall-c13223ae1cb5" target="_blank"><img src="https://raw.githubusercontent.com/metacall/beautifulsoup-express-example/master/resources/scraper.png" alt="Scraping polyglot with MetaCall" style="max-width:100%; margin: 0 auto;" width="600" height="auto"></a>
 </div>
 
 In this example we show how to use BeautifulSoup (Python) from a Express server (NodeJS) in order to build a scrapping API.
@@ -50,8 +50,12 @@ docker run --rm -p 3000:3000 -it metacall/beautifulsoup-express-example
 
 ## MetaCall FaaS
 
+<div align="center">
+  <a href="https://metacall.io" target="_blank"><img src="https://github.com/metacall/beautifulsoup-express-example/blob/master/resources/dashboard.png?raw=true" alt="Scraping polyglot with MetaCall" style="max-width:100%; margin: 0 auto;" width="600" height="auto"></a>
+</div>
+
 After deploying the application into the FaaS https://dashboard.metacall.io, it can be accessed with (change `<your_alias>` by the alias you used to sign up):
 
 ```sh
-curl -X POST https://api.metacall.io/<your_alias>/metacall/beautifulsoup-express-example/v1/call/links -X POST --data '{ "url": "https://www.npmjs.com/" }'
+curl -X POST https://api.metacall.io/<your_alias>/metacall-beautifulsoup-express-example/v1/call/links -X POST --data '{ "url": "https://www.npmjs.com/" }'
 ```
