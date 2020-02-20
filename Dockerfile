@@ -36,10 +36,10 @@ RUN metacall pip3 install beautifulsoup4 certifi \
 	&& metacall npm install metacall express
 
 # Copy sources
-COPY source/ /
+COPY index.js scraping.py /
 
 # Run test
-RUN printf 'load py scraping.py\ninspect\ncall get_links("https://www.npmjs.com/")\nexit' | metacall \
+RUN printf 'load py scraping.py\ninspect\ncall links("https://www.npmjs.com/")\nexit' | metacall \
 	&& cat /root/metacall.log
 
 # Expose port

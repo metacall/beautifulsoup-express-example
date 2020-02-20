@@ -1,0 +1,8 @@
+
+{
+    "language_id": "py",
+    "path": ".",
+    "scripts": [
+        "scraping.py"
+    ]
+}
