@@ -46,7 +46,7 @@ docker run --rm -p 3000:3000 -it metacall/beautiful-express-example
 
 ## MetaCall FaaS
 
-After deploying the application into the FaaS (https://dashboard.metacall.io)[https://dashboard.metacall.io], it can be accessed with (change `<your_alias>` by the alias you used to sign up):
+After deploying the application into the FaaS https://dashboard.metacall.io, it can be accessed with (change `<your_alias>` by the alias you used to sign up):
 
 ```sh
 curl -X POST https://api.metacall.io/<your_alias>/metacall/beautifulsoup-express-example/v1/call/links -X POST --data '{ "url": "https://www.npmjs.com/" }'
