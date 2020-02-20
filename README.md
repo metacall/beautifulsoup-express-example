@@ -1,5 +1,9 @@
 # Using BeautifulSoup from a Express server (NodeJS) with MetaCall
 
+<div align="center">
+  <a href="https://metacall.io" target="_blank"><img src="https://github.com/metacall/beautifulsoup-express-example/blob/master/resources/scraper.png?raw=true" alt="Scraping polyglot with MetaCall" style="max-width:100%; margin: 0 auto;" width="864" height="auto"></a>
+</div>
+
 In this example we show how to use BeautifulSoup (Python) from a Express server (NodeJS) in order to build a scrapping API.
 
 ## Install
