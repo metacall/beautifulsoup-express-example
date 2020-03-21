@@ -4,7 +4,7 @@
   <a href="https://medium.com/@metacall/this-scraping-serverless-polyglot-is-metacall-c13223ae1cb5" target="_blank"><img src="https://raw.githubusercontent.com/metacall/beautifulsoup-express-example/master/resources/scraper.png" alt="Scraping polyglot with MetaCall" style="max-width:100%; margin: 0 auto;" width="600" height="auto"></a>
 </div>
 
-In this example we show how to use BeautifulSoup (Python) from an Express server (NodeJS) in order to build a **Polyglot Scrapping API**.
+In this example we show how to use BeautifulSoup (Python) from an Express server (NodeJS) in order to build a **Polyglot Scrapping API**. Link to the article: https://medium.com/@metacall/this-scraping-serverless-polyglot-is-metacall-c13223ae1cb5 .
 
 ## Install
 
