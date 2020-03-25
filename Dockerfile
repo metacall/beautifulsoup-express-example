@@ -31,8 +31,10 @@ LABEL copyright.name="Vicente Eduardo Ferrer Garcia" \
 RUN apk add curl \
 	&& curl -sL https://raw.githubusercontent.com/metacall/install/master/install.sh | sh
 
+COPY requirements.txt /
+
 # Install Dependencies
-RUN metacall pip3 install beautifulsoup4 certifi \
+RUN metacall pip3 install -r requirements.txt \
 	&& metacall npm install metacall express
 
 # Copy sources

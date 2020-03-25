@@ -17,7 +17,7 @@ curl -sL https://raw.githubusercontent.com/metacall/install/master/install.sh | 
 Install application dependencies:
 
 ```sh
-metacall pip3 install beautifulsoup4 certifi
+metacall pip3 install beautifulsoup4==4.8.2 certifi==2019.11.28
 metacall npm install metacall express
 ```
 
