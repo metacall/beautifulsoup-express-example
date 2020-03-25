@@ -39,7 +39,7 @@ def links(url):
         soup = BeautifulSoup(string, features='html.parser')
 
         # Obtain all href for each link
-        links = map(lambda href: href.get('href'), soup.find_all('a'))
+        links = map(lambda a: a.get('href'), soup.find_all('a'))
 
         # Filter the ones that begin with http
         result = filter(lambda link: link.startswith('http'), links)
