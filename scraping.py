@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 #
 #	MetaCall BeautifulSoup NodeJS Example by Parra Studios
 #	Example of using Python BeautifulSoup in NodeJS with MetaCall.
